@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sai Tarrun | Contact</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Animate.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #0f0f0f;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: #fff;
+    }
+
+    .text-gradient {
+      background: linear-gradient(to right, #00b4d8, #0077b6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(10px);
+    }
+
+    .navbar .nav-link {
+      color: #f8f9fa !important;
+      transition: color 0.3s ease;
+    }
+
+    .navbar .nav-link:hover {
+      color: #00b4d8 !important;
+    }
+
+    .neon-glass {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 0 20px rgba(0, 180, 216, 0.2);
+      transition: all 0.4s ease;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: transparent;
+      padding: 1rem;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .contact-item:hover {
+      background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    .contact-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-info i {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+      color: #00b4d8;
+    }
+
+    .contact-info a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .contact-info a:hover {
+      color: #00b4d8;
+    }
+
+    .copy-btn {
+      background: none;
+      border: none;
+      color: #ccc;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .copy-btn:hover {
+      color: #00b4d8;
+    }
+
+    .contact-description {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 180, 216, 0.3);
+      transition: all 0.4s ease;
+      color: #fff;
+    }
+
+    .contact-description h3 {
+      color: #fff;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+    .contact-description p {
+      color: #ddd;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 576px) {
+      .contact-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .copy-btn {
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container px-4">
+      <a class="navbar-brand fw-bold text-gradient animate__animated animate__fadeInLeft" href="index.html" style="font-size: 1.5rem;">
+        Sai Tarrun's Portfolio
+      </a>
+      <button class="navbar-toggler bg-light border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse animate__animated animate__fadeInRight" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-semibold">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="bi bi-house-door-fill me-1"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html"><i class="bi bi-file-earmark-person-fill me-1"></i> Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html"><i class="bi bi-kanban-fill me-1"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-info" href="contact.html"><i class="bi bi-envelope-fill me-1"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="flex-shrink-0">
+    <section class="py-5 d-flex align-items-center justify-content-center" style="min-height: 100vh; padding-top: 7rem !important;">
+      <div class="container px-4">
+        <div class="text-center mb-5 animate__animated animate__fadeInDown">
+          <h2 class="fw-bold text-gradient display-5">Contact Information</h2>
+          <p class="contact-description mt-3">
+            Whether you're a recruiter, collaborator, or just curious — I'm happy to connect!<br>
+            Feel free to reach out using any of the platforms below.
+          </p>
+          
+        </div>
+
+        <div class="row justify-content-center animate__animated animate__fadeInUp">
+          <div class="col-lg-8">
+            <div class="p-4 neon-glass rounded-4 shadow-lg">
+              <ul class="list-unstyled mb-0">
+                <!-- Email -->
+                <li class="contact-item mb-3">
+                  <div class="contact-info">
+                    <i class="bi bi-envelope-fill"></i>
+                    <a href="mailto:saitarrunpitta@gmail.com" id="emailText">saitarrunpitta@gmail.com</a>
+                  </div>
+                  <button class="copy-btn" onclick="copyToClipboard('emailText', this)">
+                    <i class="bi bi-clipboard"></i>
+                  </button>
+                </li>
+
+                <!-- Phone -->
+                <li class="contact-item mb-3">
+                  <div class="contact-info">
+                    <i class="bi bi-telephone-fill"></i>
+                    <a href="tel:+16577519260" id="phoneText">+1 (657) 751-9260</a>
+                  </div>
+                  <button class="copy-btn" onclick="copyToClipboard('phoneText', this)">
+                    <i class="bi bi-clipboard"></i>
+                  </button>
+                </li>
+
+                <!-- LinkedIn -->
+                <li class="contact-item mb-3">
+                  <div class="contact-info">
+                    <i class="bi bi-linkedin"></i>
+                    <a href="https://linkedin.com/in/saitarrunpitta" target="_blank" id="linkedinText">linkedin.com/in/saitarrunpitta</a>
+                  </div>
+                  <button class="copy-btn" onclick="copyToClipboard('linkedinText', this)">
+                    <i class="bi bi-clipboard"></i>
+                  </button>
+                </li>
+
+                <!-- GitHub -->
+                <li class="contact-item">
+                  <div class="contact-info">
+                    <i class="bi bi-github"></i>
+                    <a href="https://github.com/saitarrun" target="_blank" id="githubText">github.com/saitarrun</a>
+                  </div>
+                  <button class="copy-btn" onclick="copyToClipboard('githubText', this)">
+                    <i class="bi bi-clipboard"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-secondary py-3 mt-auto small">
+    <div class="container">© 2025 Sai Tarrun. All rights reserved.</div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function copyToClipboard(id, btn) {
+      const text = document.getElementById(id).textContent.trim();
+      navigator.clipboard.writeText(text).then(() => {
+        const icon = btn.querySelector('i');
+        const original = icon.className;
+        icon.className = 'bi bi-check2-circle text-success';
+        setTimeout(() => icon.className = original, 1500);
+      });
+    }
+  </script>
+</body>
+</html>
